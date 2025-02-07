@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "methods": [
+        "get"
+      ],
+      "redirect": "/sim",
+      "statusCode": 301,
+      "allowedRoles": [
+        "anoymous"
+      ]
+    }
+  ]
+}
